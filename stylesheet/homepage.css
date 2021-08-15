@@ -105,7 +105,7 @@ height: 600px;
 }
 
 .about-container {
-margin-top: 20px;
+margin-top: 5px;
 display: flex;
 justify-content: center;
 flex-direction: row; 
@@ -116,8 +116,8 @@ flex-direction: row;
 .event-ben {
 width: 30%;
 height: 460px;
-margin-right: 80px;
-/* margin-bottom: 400px; */
+margin-right: 60px;
+/*margin-bottom: 400px; */
 /* margin-left: 0px; */
 }
 
@@ -133,7 +133,17 @@ color: #444;
 flex-direction: column; */
 }
 
-
+.info-research {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: black;
+/*border-left: 5px dashed #444; */
+/* width: 30%; */
+/* display: flex;
+flex-direction: column; */
+}
 
 .cp_point {
 position: relative;
@@ -143,6 +153,7 @@ border: 1px dotted #1b2538;
 background-color: #f8fdff;
 border-radius: 8px;
 }
+
 .cp_point::before {
 position: absolute;
 top: -1em;
@@ -181,7 +192,54 @@ font-family: FontAwesome;
 /* content: "\f0da "; */
 color: #333;
 }
-
+.cp_pointa {
+  position: relative;
+  margin: 30px 0 30px;
+  padding: 30px 5px 10px 2px;
+  border: 1px dotted #1b2538;
+  background-color: honeydew;
+  border-radius: 8px;
+  }
+  
+  .cp_pointa::before {
+  position: absolute;
+  top: -1em;
+  left: 1em;
+  content: attr(title);
+  padding: .1em 1em 0 1em;
+  font-size: 100%;
+  font-weight: bold;
+  font-style: oblique;
+  color: #fff;
+  height: 27px;
+  background-color: #1b2538;
+  border-radius: 2px;
+  }
+  .cp_pointa::after {
+  position: absolute;
+  top: -1em;
+  left: 1.3em;
+  font-family: FontAwesome;
+  /* content: "\f046"; */
+  padding: .5em .5em 0 0;
+  font-size: 20px;
+  color: #fff;
+  line-height: 25px;
+  text-align: center;
+  }
+  .cp_pointa li {
+  position: relative;
+  list-style-type: none;
+  }
+  .cp_pointa li::before {
+  position: absolute;
+  top: .25em;
+  left: -1em;
+  font-family: FontAwesome;
+  /* content: "\f0da "; */
+  color: #333;
+  }
+  
 .info-title {
 font-size: 60px;
 font-family: serif;
@@ -364,7 +422,7 @@ font-size: 50px;
   background-color: lightsteelblue;
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
   height: 600px;
   }
 /* コメントアウト外してみよう！！！ */
@@ -377,10 +435,11 @@ padding-top: 25px;
 }
 
 .green-box{
-/* background-color: rgb(207, 226, 188); */
-height: 450px;
-width: 33%;
-padding-top: 25px;
+  /* background-color: dimgrey; */
+  height: 450px;
+  width: 33%;
+  padding-top: 25px;
+  /* color: floralwhite; */
 }
 
 .skyblue-box{
@@ -413,6 +472,7 @@ padding-top: 25px;
 
 .maintitle{
 font-size: 35px;
+font-weight: 600;
 text-align: center;
 /*margin-top: 20px; */
 /* text-align: left; */
@@ -420,6 +480,7 @@ text-align: center;
 
 .maintheme{
 font-size: 25px;
+font-weight: 400;
 text-align: center;
 }
 
@@ -429,6 +490,8 @@ margin-left: 20px;
 }
 
 .font_8{
+font-size: 18px;
+font-weight: 100;
 text-align: left;
 margin-left: 20px;
 margin-right: 20px;
